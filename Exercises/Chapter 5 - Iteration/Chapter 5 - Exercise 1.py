@@ -15,20 +15,21 @@ Enter a number: done
 16 3 5.333333333333333
 """
 
-count = 0
+count = 0               #initialization
 total = 0
-while True:
+
+while True:             #infinite loop
     line = input("Enter a number: \t ")
     try:
-        total = total + float(line)
+        total = total + float(line)         #convert string to float
     except:
-        if line == 'done':
+        if line == 'done':                  #keyword to stop input
             break
         else:
-            print('Invalid input')
+            print('Invalid input')          #only numbers are permitted
             continue
 
-    count = count + 1
+    count = count + 1                       #counts only valid input
 
     average = total / count
 

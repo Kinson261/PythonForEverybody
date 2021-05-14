@@ -8,7 +8,7 @@
 
 
 def great_func(my_list):
-    biggest = None
+    biggest = None              #None != 0
     for value in my_list:
         if biggest is None or biggest < value:
             biggest = value
@@ -16,23 +16,23 @@ def great_func(my_list):
 
 
 def small_func(my_list):
-    smallest = None
+    smallest = None             #None !=0
     for value in my_list:
         if smallest is None or smallest > value:
             smallest = value
     return smallest
 
 
-values = []
+values = []                     #create an array which stores all entered values
 while True:
     inp = input('Enter a number: ')
 
     try:
-        value = float(inp)
-        values.append(value)
+        value = float(inp)      #convert string to float, only numbers are allowed
+        values.append(value)    #add last entered value to array 'values'
 
     except:
-        if inp == 'done':
+        if inp == 'done':       #keyword to stop input
             break
         else:
             print('Invalid input')

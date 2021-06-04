@@ -1,5 +1,5 @@
-Python for Everybody
+# **Python for Everybody**
 
-Exploring Data Using Python 3
+_Exploring Data Using Python 3_
 
-Dr. Charles R. Severance
+###### Dr. Charles R. Severance

@@ -13,8 +13,8 @@ import string
 
 import matplotlib.pyplot as plt
 
-# fname = input('Enter file name: ')
-fname = 'mbox.txt'
+fname = input('Enter file name: ')
+#fname = 'mbox.txt'
 fhand = open(fname)
 
 # global variable

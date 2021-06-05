@@ -21,8 +21,8 @@ Enter a file name: mbox-short.txt
 19 1
 """
 
-# fname = input('Enter a file name: ')
-fname = 'mbox-short.txt'
+fname = input('Enter a file name: ')
+#fname = 'mbox-short.txt'
 
 try:
     fhand = open(fname)

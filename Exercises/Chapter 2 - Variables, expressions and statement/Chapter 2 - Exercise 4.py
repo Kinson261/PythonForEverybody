@@ -11,8 +11,8 @@ Exercise 4
 
 print('\n\n________________________________________')
 print('Exercise 4')
-width = 17;
-height = 12;
+width = 17
+height = 12
 
 print('W1= width//2')
 W1 = width // 2
